@@ -1,0 +1,14 @@
+pipeline{
+       agent any
+       stages{
+               state("statel"){
+                       steps{
+                  
+                                echo "This is my firt stage"
+                       }    
+                 }     
+
+         }
+
+}
+
